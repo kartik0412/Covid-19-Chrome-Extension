@@ -8,6 +8,7 @@ body {
     color: black;
     font-family: "Quicksand", sans-serif;
     width: 400px;
+    height: 203px;
 }
 
 .heading h1 {
@@ -39,6 +40,7 @@ body {
 .form-group {
     width: 80% !important;
     overflow: hidden;
+    margin: auto auto 40px;
 }
 .form-control:focus {
     color: #495057;
@@ -47,15 +49,16 @@ body {
     outline: 0;
 }
 .loader {
+    height: 204px;
     border-radius: 50%;
-    border-top: 10px solid blue;
-    border-right: 10px solid green;
-    border-bottom: 10px solid red;
-    border-left: 10px solid pink;
-    border-top: 10px solid #3498db;
-    width: 100px;
-    height: 100px;
-    margin: 200px auto;
+    border-top: 5px solid blue;
+    border-right: 5px solid green;
+    border-bottom: 5px solid red;
+    border-left: 5px solid pink;
+    border-top: 5px solid #3498db;
+    width: 50px;
+    height: 50px;
+    margin: 102px auto;
     -webkit-animation: spin 2s linear infinite; /* Safari */
     animation: spin 2s linear infinite;
 }
