@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "Covid-19",
+    "description": "Give latest count of covid-19 cases in India.",
+    "version": "1.0",
+    "browser_action": {
+        "default_icon": "virus.png",
+        "default_popup": "index.html",
+        "default_title": "Covid-19"
+    },
+    "icons": {
+        "16": "covid-19-16.png",
+        "48": "covid-19-48.png",
+        "128": "covid-19-128.png"
+    },
+    "content_security_policy": "script-src 'self' 'sha256-SxjnemGbETrxMArLorO1vkziXUIVNxMCQ4XJLaV5n24='; object-src 'self'",
+    "permissions": ["tabs"]
+}
