@@ -4,9 +4,31 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Covid-19 India Tracker</title>
-        <link rel="stylesheet" href="index.css" />
+        <link rel="stylesheet" href="bootstrap.css" />
+        <style>
+            .btn-more {
+                display: flex;
+                justify-content: center;
+                padding: 10px;
+                margin-top: -15px;
+                width: 100%;
+            }
+            .btn-more button {
+                width: 110px;
+                color: #495057;
+                padding: 2px;
+                border-radius: 5px;
+                background-color: transparent;
+                outline: none;
+                border: 1px solid rgba(0, 0, 0, 0.2);
+            }
+        </style>
     </head>
     <body>
         <div id="root"></div>
+        <div class="btn-more">
+            <button id="more">More</button>
+        </div>
+        <script src="index.js"></script>
     </body>
 </html>

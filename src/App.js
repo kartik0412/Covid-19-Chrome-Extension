@@ -33,6 +33,7 @@ export default class App extends React.Component {
             state: e.target.value,
         });
     }
+
     render() {
         const { statewise, state, isloading } = this.state;
         return (
