@@ -104,17 +104,9 @@ body {
     width: 100%;
 }
 
-.updated-time h1 {
-    margin: 0 auto;
-    margin-top: 10px;
-    text-transform: uppercase;
-    text-align: center;
-    font-size: 0.8rem;
-}
 .updated-time p {
     margin: 0 auto;
     margin-top: 10px;
-    text-transform: uppercase;
     text-align: center;
     font-size: 0.8rem;
 }
